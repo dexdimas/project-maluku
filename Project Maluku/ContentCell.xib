@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReuseableCell" rowHeight="152" id="KGk-i7-Jjw" customClass="ContentCell" customModule="Project_Maluku" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="277" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="277" height="152"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OEe-qX-DKn">
+                        <rect key="frame" x="10" y="10" width="257" height="132"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SentimentBar_Positive" translatesAutoresizingMaskIntoConstraints="NO" id="b9C-as-Pe9">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="JDg-ol-Nov"/>
+                                    <constraint firstAttribute="height" constant="79" id="gJb-GZ-vzf"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Doh-Wm-f15">
+                                <rect key="frame" x="28" y="0.0" width="229" height="63.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZV-K9-rGu">
+                                        <rect key="frame" x="0.0" y="0.0" width="229" height="50.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWz-8W-QlM">
+                                                <rect key="frame" x="8" y="15" width="213" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ZWz-8W-QlM" secondAttribute="trailing" constant="8" id="EKo-fP-xiK"/>
+                                            <constraint firstItem="ZWz-8W-QlM" firstAttribute="top" secondItem="hZV-K9-rGu" secondAttribute="top" constant="15" id="KW5-Nw-bHJ"/>
+                                            <constraint firstItem="ZWz-8W-QlM" firstAttribute="centerY" secondItem="hZV-K9-rGu" secondAttribute="centerY" id="Nbp-mT-uIv"/>
+                                            <constraint firstItem="ZWz-8W-QlM" firstAttribute="leading" secondItem="hZV-K9-rGu" secondAttribute="leading" constant="8" id="gV9-A6-Ob1"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fV-Vy-4BG">
+                                        <rect key="frame" x="0.0" y="53.5" width="229" height="10"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJe-p0-fWY">
+                                                <rect key="frame" x="8" y="0.0" width="221" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="Tpq-Gz-erq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5fV-Vy-4BG" firstAttribute="top" secondItem="hZV-K9-rGu" secondAttribute="bottom" constant="3" id="FZ4-E1-Lgc"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" name="BackgroundColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="OEe-qX-DKn" secondAttribute="bottom" constant="10" id="664-c3-mRH"/>
+                    <constraint firstItem="OEe-qX-DKn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Yqn-kz-vcb"/>
+                    <constraint firstAttribute="trailing" secondItem="OEe-qX-DKn" secondAttribute="trailing" constant="10" id="eLE-tj-IGa"/>
+                    <constraint firstItem="OEe-qX-DKn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="q7J-hY-W3u"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentLabel" destination="ZWz-8W-QlM" id="Z6W-Tg-Ank"/>
+                <outlet property="dateLabel" destination="tJe-p0-fWY" id="Uw6-Th-Mp7"/>
+                <outlet property="sentimentBarImageView" destination="b9C-as-Pe9" id="OuP-xs-glK"/>
+            </connections>
+            <point key="canvasLocation" x="106.5217391304348" y="91.741071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SentimentBar_Positive" width="512" height="512"/>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
