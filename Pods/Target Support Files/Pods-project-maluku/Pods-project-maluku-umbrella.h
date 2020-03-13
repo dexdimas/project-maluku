@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Project_MalukuVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Project_MalukuVersionString[];
+FOUNDATION_EXPORT double Pods_project_malukuVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_project_malukuVersionString[];
 

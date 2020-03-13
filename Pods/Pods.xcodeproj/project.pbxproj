@@ -3,71 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		734E3E1FB1AA9ED88B4FEF371DF5722F /* Pods-Project Maluku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B030D3EF70E7BD47D7F23045BB0EA62 /* Pods-Project Maluku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E96BC3D1AA32F439A3570338BF87A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F180B5EFA41CBF9B30B30CADE00033A6 /* Pods-Project Maluku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A03396FFCA6061478F632E2A1948B4A2 /* Pods-Project Maluku-dummy.m */; };
+		3653B4697F4CB2E10701B8E163F048BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		78E847654641166EF76FDF7891A97A89 /* Pods-project-maluku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DF602FFA7CFA3492155277D44CEB9C /* Pods-project-maluku-dummy.m */; };
+		90809340B9C76AF7A2C18A26422210B5 /* Pods-project-maluku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AD1DD6C1EEF6CF4AF5AC52C2CE85CA /* Pods-project-maluku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02B698089340DF6CC7F18EA8181D4CF6 /* Pods_Project_Maluku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Project_Maluku.framework; path = "Pods-Project Maluku.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2757483041F31A650E0B9EB0B45331DB /* Pods-project-maluku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-project-maluku.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3EAFA570A63E7B210C4DD4380EDEDD85 /* Pods-Project Maluku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Project Maluku.modulemap"; sourceTree = "<group>"; };
-		79F29746A9F2A7665E1554033823062A /* Pods-Project Maluku-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project Maluku-Info.plist"; sourceTree = "<group>"; };
-		7D1B8F2437DB924A39BFC8AA11234B62 /* Pods-Project Maluku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project Maluku.debug.xcconfig"; sourceTree = "<group>"; };
-		9B030D3EF70E7BD47D7F23045BB0EA62 /* Pods-Project Maluku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project Maluku-umbrella.h"; sourceTree = "<group>"; };
+		73DF602FFA7CFA3492155277D44CEB9C /* Pods-project-maluku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-project-maluku-dummy.m"; sourceTree = "<group>"; };
+		77196F8B3FD1F65CF29C51D33BD75906 /* Pods_project_maluku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_project_maluku.framework; path = "Pods-project-maluku.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AD1DD6C1EEF6CF4AF5AC52C2CE85CA /* Pods-project-maluku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-project-maluku-umbrella.h"; sourceTree = "<group>"; };
+		9649876D354D57EE24A2AD2EE12DE440 /* Pods-project-maluku-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-project-maluku-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A200BB153081BB05EBD166FD48660F1 /* Pods-project-maluku-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-project-maluku-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A03396FFCA6061478F632E2A1948B4A2 /* Pods-Project Maluku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Project Maluku-dummy.m"; sourceTree = "<group>"; };
-		E84CB5E98BEE649AA913BBDD3E66ECC3 /* Pods-Project Maluku-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project Maluku-acknowledgements.plist"; sourceTree = "<group>"; };
-		F431587E56A6FEA3BF318367E7716D87 /* Pods-Project Maluku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project Maluku.release.xcconfig"; sourceTree = "<group>"; };
-		FCC11536475D4120F81462344334D820 /* Pods-Project Maluku-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Project Maluku-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EFD739F1CEAA680B588E467CAA674DC /* Pods-project-maluku-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-project-maluku-Info.plist"; sourceTree = "<group>"; };
+		AABB822298A8A12342AF5934F4B8C35E /* Pods-project-maluku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-project-maluku.debug.xcconfig"; sourceTree = "<group>"; };
+		D87696E3AFA83C374DAFF94F204FDD53 /* Pods-project-maluku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-project-maluku.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2419A3FC35910E0FE48D2D9EA0AB6701 /* Frameworks */ = {
+		B77AE83533474CA485F3AE2B51D9284F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E96BC3D1AA32F439A3570338BF87A63 /* Foundation.framework in Frameworks */,
+				3653B4697F4CB2E10701B8E163F048BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03CEA4F92A59079A41DD1FD0012EC835 /* Products */ = {
+		42A5875B58A9298E18FCED5F60249F90 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				02B698089340DF6CC7F18EA8181D4CF6 /* Pods_Project_Maluku.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		78928DA8C6A26540723C313117D0D082 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8507172460CA3C8AA5A144F61D52A4B3 /* Pods-Project Maluku */,
+				65BAD3ECD72EC64E94C1BD8DC79DD986 /* Pods-project-maluku */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8507172460CA3C8AA5A144F61D52A4B3 /* Pods-Project Maluku */ = {
+		65BAD3ECD72EC64E94C1BD8DC79DD986 /* Pods-project-maluku */ = {
 			isa = PBXGroup;
 			children = (
-				3EAFA570A63E7B210C4DD4380EDEDD85 /* Pods-Project Maluku.modulemap */,
-				FCC11536475D4120F81462344334D820 /* Pods-Project Maluku-acknowledgements.markdown */,
-				E84CB5E98BEE649AA913BBDD3E66ECC3 /* Pods-Project Maluku-acknowledgements.plist */,
-				A03396FFCA6061478F632E2A1948B4A2 /* Pods-Project Maluku-dummy.m */,
-				79F29746A9F2A7665E1554033823062A /* Pods-Project Maluku-Info.plist */,
-				9B030D3EF70E7BD47D7F23045BB0EA62 /* Pods-Project Maluku-umbrella.h */,
-				7D1B8F2437DB924A39BFC8AA11234B62 /* Pods-Project Maluku.debug.xcconfig */,
-				F431587E56A6FEA3BF318367E7716D87 /* Pods-Project Maluku.release.xcconfig */,
+				2757483041F31A650E0B9EB0B45331DB /* Pods-project-maluku.modulemap */,
+				9649876D354D57EE24A2AD2EE12DE440 /* Pods-project-maluku-acknowledgements.markdown */,
+				9A200BB153081BB05EBD166FD48660F1 /* Pods-project-maluku-acknowledgements.plist */,
+				73DF602FFA7CFA3492155277D44CEB9C /* Pods-project-maluku-dummy.m */,
+				9EFD739F1CEAA680B588E467CAA674DC /* Pods-project-maluku-Info.plist */,
+				80AD1DD6C1EEF6CF4AF5AC52C2CE85CA /* Pods-project-maluku-umbrella.h */,
+				AABB822298A8A12342AF5934F4B8C35E /* Pods-project-maluku.debug.xcconfig */,
+				D87696E3AFA83C374DAFF94F204FDD53 /* Pods-project-maluku.release.xcconfig */,
 			);
-			name = "Pods-Project Maluku";
-			path = "Target Support Files/Pods-Project Maluku";
+			name = "Pods-project-maluku";
+			path = "Target Support Files/Pods-project-maluku";
+			sourceTree = "<group>";
+		};
+		714CAFD1634CC43557525E1F2CB0E201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77196F8B3FD1F65CF29C51D33BD75906 /* Pods_project_maluku.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -83,8 +83,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				03CEA4F92A59079A41DD1FD0012EC835 /* Products */,
-				78928DA8C6A26540723C313117D0D082 /* Targets Support Files */,
+				714CAFD1634CC43557525E1F2CB0E201 /* Products */,
+				42A5875B58A9298E18FCED5F60249F90 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,33 +99,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FFFCFEB76FBE1CD82898D31B363F68AF /* Headers */ = {
+		76C49158ED6AEB1E07E92C5CD1D84DCE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				734E3E1FB1AA9ED88B4FEF371DF5722F /* Pods-Project Maluku-umbrella.h in Headers */,
+				90809340B9C76AF7A2C18A26422210B5 /* Pods-project-maluku-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2C80624FEFAD70C95262B46F1DA599F /* Pods-Project Maluku */ = {
+		A43992D9E1886D81B0F6DB109BE6BF12 /* Pods-project-maluku */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ED3C09B2BA86911A2E4F2141E1205A2 /* Build configuration list for PBXNativeTarget "Pods-Project Maluku" */;
+			buildConfigurationList = 3AB5A2905DB36D696E64BF1DC4513834 /* Build configuration list for PBXNativeTarget "Pods-project-maluku" */;
 			buildPhases = (
-				FFFCFEB76FBE1CD82898D31B363F68AF /* Headers */,
-				F772315211C11563893A1208127D877C /* Sources */,
-				2419A3FC35910E0FE48D2D9EA0AB6701 /* Frameworks */,
-				F980BB6FBDC87A4E8120AE82F9BA90AD /* Resources */,
+				76C49158ED6AEB1E07E92C5CD1D84DCE /* Headers */,
+				F550D3BC366552D7028F8CFE497A3E21 /* Sources */,
+				B77AE83533474CA485F3AE2B51D9284F /* Frameworks */,
+				B02CE7D8632FD7F4EE09FCCDA0BC3D6C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Project Maluku";
-			productName = "Pods-Project Maluku";
-			productReference = 02B698089340DF6CC7F18EA8181D4CF6 /* Pods_Project_Maluku.framework */;
+			name = "Pods-project-maluku";
+			productName = "Pods-project-maluku";
+			productReference = 77196F8B3FD1F65CF29C51D33BD75906 /* Pods_project_maluku.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,17 +146,17 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 03CEA4F92A59079A41DD1FD0012EC835 /* Products */;
+			productRefGroup = 714CAFD1634CC43557525E1F2CB0E201 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2C80624FEFAD70C95262B46F1DA599F /* Pods-Project Maluku */,
+				A43992D9E1886D81B0F6DB109BE6BF12 /* Pods-project-maluku */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F980BB6FBDC87A4E8120AE82F9BA90AD /* Resources */ = {
+		B02CE7D8632FD7F4EE09FCCDA0BC3D6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,11 +166,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F772315211C11563893A1208127D877C /* Sources */ = {
+		F550D3BC366552D7028F8CFE497A3E21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F180B5EFA41CBF9B30B30CADE00033A6 /* Pods-Project Maluku-dummy.m in Sources */,
+				78E847654641166EF76FDF7891A97A89 /* Pods-project-maluku-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +237,9 @@
 			};
 			name = Release;
 		};
-		7D386888DCDF31256BF8942641C1519E /* Release */ = {
+		3F3DA9A798F6776D3F64F57089689908 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F431587E56A6FEA3BF318367E7716D87 /* Pods-Project Maluku.release.xcconfig */;
+			baseConfigurationReference = D87696E3AFA83C374DAFF94F204FDD53 /* Pods-project-maluku.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -252,7 +252,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Project Maluku/Pods-Project Maluku-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-project-maluku/Pods-project-maluku-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -261,7 +261,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Project Maluku/Pods-Project Maluku.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-project-maluku/Pods-project-maluku.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -276,9 +276,9 @@
 			};
 			name = Release;
 		};
-		E79F8EEF67A8947660A552980E7F9665 /* Debug */ = {
+		577E5C6A65A6CEEEF727ED92120DAD95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D1B8F2437DB924A39BFC8AA11234B62 /* Pods-Project Maluku.debug.xcconfig */;
+			baseConfigurationReference = AABB822298A8A12342AF5934F4B8C35E /* Pods-project-maluku.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -291,7 +291,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Project Maluku/Pods-Project Maluku-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-project-maluku/Pods-project-maluku-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +300,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Project Maluku/Pods-Project Maluku.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-project-maluku/Pods-project-maluku.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -381,11 +381,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ED3C09B2BA86911A2E4F2141E1205A2 /* Build configuration list for PBXNativeTarget "Pods-Project Maluku" */ = {
+		3AB5A2905DB36D696E64BF1DC4513834 /* Build configuration list for PBXNativeTarget "Pods-project-maluku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E79F8EEF67A8947660A552980E7F9665 /* Debug */,
-				7D386888DCDF31256BF8942641C1519E /* Release */,
+				577E5C6A65A6CEEEF727ED92120DAD95 /* Debug */,
+				3F3DA9A798F6776D3F64F57089689908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
