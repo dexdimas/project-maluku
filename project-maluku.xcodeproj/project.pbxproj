@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89494E222417C93D00C3CCC4 /* project-maluku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-maluku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89494E222417C93D00C3CCC4 /* Project Maluku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Maluku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89494E252417C93D00C3CCC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89494E272417C93D00C3CCC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		89494E292417C93D00C3CCC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		89494E232417C93D00C3CCC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89494E222417C93D00C3CCC4 /* project-maluku.app */,
+				89494E222417C93D00C3CCC4 /* Project Maluku.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 				89494E422418668400C3CCC4 /* IQKeyboardManagerSwift */,
 			);
 			productName = "Project Maluku";
-			productReference = 89494E222417C93D00C3CCC4 /* project-maluku.app */;
+			productReference = 89494E222417C93D00C3CCC4 /* Project Maluku.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -367,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andimasbagaswara.project-maluku";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Project Maluku";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -386,7 +386,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andimasbagaswara.project-maluku";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Project Maluku";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
